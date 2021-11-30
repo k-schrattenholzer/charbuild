@@ -7,14 +7,17 @@ export default function Selector({
   onMidChange,
   bottom,
   onBottomChange,
+  shoes,
+  onShoeChange,
 }) {
 
   const headIcons = ['bat', 'bearded dragon', 'frog', 'parrot', 'pigeon', 'snake', 'walrus'];
   const midIcons = ['dress', 'jacket', 'overalls', 'poncho', 'shirt', 'sweater'];
-  const bottomIcons = ['boot', 'converse', 'jeans', 'pijama', 'sandals', 'shorts', 'tennies']
+  const bottomIcons = ['jeans', 'pijamas', 'shorts'];
+  const shoeIcons = ['boot', 'converse', 'sandals', 'tennies']
 
   return (
-    <div>
+    <div style={{display:'flex', flexDirection:'column'}}>
       <label>
         face-space
         <select 
@@ -41,6 +44,16 @@ export default function Selector({
         value={bottom} 
         onChange={(e) => onBottomChange(e.target.value)}>
             {bottomIcons.map((png) => (
+            <option key={png}>{png}</option>
+          ))}
+          </select>
+      </label>
+      <label>
+        shoes
+        <select 
+        value={bottom} 
+        onChange={(e) => onShoeChange(e.target.value)}>
+            {shoeIcons.map((png) => (
             <option key={png}>{png}</option>
           ))}
           </select>

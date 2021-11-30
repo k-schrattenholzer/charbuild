@@ -9,6 +9,7 @@ function App() {
   const [head, setHead] = useState("pigeon");
   const [mid, setMid] = useState("poncho");
   const [bottom, setBottom] = useState("shorts");
+  const [shoes, setShoes] = useState("converse");
   //need a handleClick to update the sayings array with new sayings when the button is clicked
 
   return (
@@ -23,9 +24,11 @@ function App() {
             onMidChange={setMid} 
             bottom={bottom} 
             onBottomChange={setBottom}
+            shoes={shoes}
+            onShoeChange={setShoes}
           />
           <Display />
-          <Character {...{head, mid, bottom}}/>
+          <Character {...{head, mid, bottom, shoes}}/>
         </header>
       </main>
     </div>
