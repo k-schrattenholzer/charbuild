@@ -1,0 +1,11 @@
+.Char-Container {
+  width: 12em;
+  padding: 1em;
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  border-radius:  30px;
+  box-shadow: var(--russian-green) 0px 4px 10px;
+  margin-top: 1em;
+  background-color: var(--laurel-green-2);
+}
