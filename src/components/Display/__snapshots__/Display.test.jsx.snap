@@ -7,6 +7,7 @@ exports[`should display the Display component 1`] = `
   >
     <p
       aria-label="count"
+      class="Count"
     >
       added 
       3
@@ -14,17 +15,24 @@ exports[`should display the Display component 1`] = `
     </p>
     <label
       aria-label="bucket"
+      class="Thought-Container"
     >
       <h3>
         the brain bucket
       </h3>
-      <p>
+      <p
+        class="Thought"
+      >
         boy howdy
       </p>
-      <p>
+      <p
+        class="Thought"
+      >
         well hey there, cowpoke
       </p>
-      <p>
+      <p
+        class="Thought"
+      >
         proud of u
       </p>
     </label>
