@@ -29,10 +29,17 @@ input {
 select {
   font-family: 'Gamja Flower', cursive;
   border-radius: 1em;
+  font-weight: bolder;
+  width: max-content;
+  /* appearance: none; */
+  padding: 3px;
+  background-image: linear-gradient(to bottom, #cfd5c3, #c4cdb7, #bac4ab, #afbc9f, #a4b494);
+  border-color:var(--russian-green);
 }
 
 h3{
-  font-size: 2em;
+  font-size: 1.5em;
+  text-shadow: var(--eminence) 3px 4px;
 }
 
 .App {

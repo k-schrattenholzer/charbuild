@@ -5,9 +5,6 @@ exports[`should render the selector component 1`] = `
   <div
     class="Selector-Container"
   >
-    <h4>
-      yr cutie
-    </h4>
     <article
       class="Options-Container"
     >
