@@ -1,0 +1,19 @@
+.Selector-Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px dotted rgb(124, 109, 23);
+  padding: 1em;
+  align-items: center;
+}
+
+.Options-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Option {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+}

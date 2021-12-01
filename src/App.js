@@ -10,14 +10,24 @@ function App() {
   const [mid, setMid] = useState("poncho");
   const [bottom, setBottom] = useState("shorts");
   const [shoes, setShoes] = useState("converse");
+  const [newSaying, setSaying] = useState("");
+  const [sayings, setSayings] = useState([]);
+  const [count, setCount] = useState(0);
+
   //need a handleClick to update the sayings array with new sayings when the button is clicked
+
+  const handleClick = () => {
+    setSayings((prevState) => [...prevState, newSaying]);
+    setCount(prevCount => prevCount + 1);
+  };
 
   return (
     <div className="App">
       <main>
         <header className="App-header">
-          <h1>make a qt</h1>
-          <Selector
+          <h1>make a QT</h1> 
+        </header>
+        <Selector
             head={head}
             onHeadChange={setHead}
             mid={mid} 
@@ -26,10 +36,12 @@ function App() {
             onBottomChange={setBottom}
             shoes={shoes}
             onShoeChange={setShoes}
+            newSaying={newSaying}
+            addSaying={setSaying}
+            handleClick={handleClick}
           />
-          <Display />
+          <Display {...{sayings, count}}/>
           <Character {...{head, mid, bottom, shoes}}/>
-        </header>
       </main>
     </div>
   );

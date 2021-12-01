@@ -1,0 +1,6 @@
+.Char-Container {
+  border-top: 1px dotted rgb(124, 109, 23);
+  padding: 1em;
+  display:flex;
+  align-items: center;
+}

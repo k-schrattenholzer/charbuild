@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Character.css'
 
 export default function Character({head, mid, bottom, shoes}) {
   return (
-    <div style={{display:'flex', flexDirection:'column'}}>
+    <div 
+    style={{display:'flex', flexDirection:'column'}}
+    className="Char-Container"
+    >
 
       <article
       className='head'
