@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display the Display component 1`] = `
+<div>
+  <div
+    class="Display"
+  >
+    <p
+      aria-label="count"
+    >
+      you've added 
+      3
+       thoughts
+    </p>
+    <label
+      aria-label="bucket"
+    >
+      <h3>
+        the brain bucket
+      </h3>
+      <p>
+        boy howdy
+      </p>
+      <p>
+        well hey there, cowpoke
+      </p>
+      <p>
+        proud of u
+      </p>
+    </label>
+  </div>
+</div>
+`;
