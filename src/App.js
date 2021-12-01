@@ -19,6 +19,8 @@ function App() {
   const handleClick = () => {
     setSayings((prevState) => [...prevState, newSaying]);
     setCount(prevCount => prevCount + 1);
+    setSaying('');
+  
   };
 
   return (

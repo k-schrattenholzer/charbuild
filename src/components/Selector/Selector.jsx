@@ -77,9 +77,9 @@ export default function Selector({
             type='text'
             value={newSaying}
             onChange={(e) => addSaying(e.target.value)}
-            onFocus={(e) => {
-              this.value = '';
-            }}
+            // onFocus={(e) => {
+            //   this.value = '';
+            // }}
           />
           <button 
             type='button'
