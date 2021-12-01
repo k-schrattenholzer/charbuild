@@ -3,10 +3,12 @@
   flex-direction: column-reverse;
   align-items: flex-start;
   width: min-content;
-  background-color: rgb(124, 109, 23); 
-  color: rgb(41, 38, 1);
+  background-color: var(--black-coffee); 
+  color: var(--magnolia);
   padding: 10px;
   border-radius:  30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--magnolia) 3px 4px 20px;
   margin-top: 1em;
+  font-size:2em;
+  width: fit-content;
 }

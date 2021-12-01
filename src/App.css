@@ -2,6 +2,7 @@
 
 :root {
   --bone: #CFD5C3;
+  --magnolia: #EEE7EC;
   --laurel-green: #bec5adff;
   --laurel-green-2: #a4b494ff;
   --russian-green: #519872ff;
@@ -28,6 +29,10 @@ input {
 select {
   font-family: 'Gamja Flower', cursive;
   border-radius: 1em;
+}
+
+h3{
+  font-size: 2em;
 }
 
 .App {

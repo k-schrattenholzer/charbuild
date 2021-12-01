@@ -6,12 +6,11 @@ export default function Display({sayings, count}) {
     <div className='Display'>
       <p
       aria-label='count'>
-        you've added {count} thoughts</p>
+        added {count} thoughts</p>
 
       <label
       aria-label='bucket'>
-        <h3
-        >the brain bucket</h3>
+        <h3>the brain bucket</h3>
         {sayings.map((saying) => (
             <p key={saying}>{saying}</p>
         ))}
