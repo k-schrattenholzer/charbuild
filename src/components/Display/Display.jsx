@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Display.css';
 
 export default function Display({sayings, count}) {
   return (

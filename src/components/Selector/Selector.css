@@ -1,19 +1,32 @@
 .Selector-Container {
   display: grid;
   grid-template-columns: 1fr;
-  border: 1px dotted rgb(124, 109, 23);
-  padding: 1em;
+  background-color: var(--jet-2);
+  border-radius: 30px;
+  padding: 10px;
+  gap: 5px;
   align-items: center;
+  color: var(--jet);
+  font-size: 1.5em;
 }
 
 .Options-Container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  /* background-color: #706e53;
+  border-radius: 30px; */
+  padding: 5px;
+  align-items:flex-end;
 }
 
 .Option {
   display: flex;
   flex-direction: column;
-  width: min-content;
+  width: 5em;
+  background-color: var(--laurel-green-2);
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: var(--russian-green) 0px 4px 10px;
+  text-shadow: -1px 2px 0 var(--bone);
 }

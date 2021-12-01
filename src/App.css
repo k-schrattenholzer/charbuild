@@ -1,7 +1,35 @@
-body {
-  background-color: #282c34;
-  color: white;
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+:root {
+  --bone: #CFD5C3;
+  --laurel-green: #bec5adff;
+  --laurel-green-2: #a4b494ff;
+  --russian-green: #519872ff;
+  --dark-slate-gray: #3b5249ff;
+  --black-coffee: #34252fff;
+  --jet: #333333ff;
+  --eminence: #643173ff;
 }
+
+body {
+  background-color: var(--dark-slate-gray);
+  font-family: 'Gamja Flower', cursive;
+}
+
+button {
+  border-radius: 20px;
+  font-family: 'Gamja Flower', cursive;
+}
+
+input {
+  font-family: 'Gamja Flower', cursive;
+}
+
+select {
+  font-family: 'Gamja Flower', cursive;
+  border-radius: 1em;
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +40,15 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--bone);
+  font: italic bold 100px;
+  text-shadow: -4px 3px 0 var(--dark-slate-gray), -7px 6px 0 var(--jet);
+}
+
+.Presentational-Container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 

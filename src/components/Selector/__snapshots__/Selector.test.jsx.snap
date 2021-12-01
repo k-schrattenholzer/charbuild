@@ -104,12 +104,12 @@ exports[`should render the selector component 1`] = `
           type="text"
           value=""
         />
+        <button
+          type="button"
+        >
+          put it in the bucket
+        </button>
       </label>
-      <button
-        type="button"
-      >
-        put it in the bucket
-      </button>
     </article>
   </div>
 </div>

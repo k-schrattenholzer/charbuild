@@ -1,6 +1,10 @@
 .Char-Container {
-  border-top: 1px dotted rgb(124, 109, 23);
   padding: 1em;
   display:flex;
   align-items: center;
+  padding: 10px;
+  border-radius:  30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 1em;
+  background-color: var(--laurel-green-2);
 }

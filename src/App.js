@@ -40,8 +40,10 @@ function App() {
             addSaying={setSaying}
             handleClick={handleClick}
           />
-          <Display {...{sayings, count}}/>
-          <Character {...{head, mid, bottom, shoes}}/>
+          <article className='Presentational-Container'>
+            <Display {...{sayings, count}}/>
+            <Character {...{head, mid, bottom, shoes}}/>
+          </article>
       </main>
     </div>
   );

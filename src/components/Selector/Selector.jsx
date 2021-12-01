@@ -24,7 +24,6 @@ export default function Selector({
     <div 
     className='Selector-Container'
     >
-      <h4>yr cutie</h4>
       <article
       className='Options-Container'>
         <label
@@ -79,10 +78,12 @@ export default function Selector({
             value={newSaying}
             onChange={(e) => addSaying(e.target.value)}
           />
-        </label>
-        <button 
-        type='button'
-        onClick={handleClick}>put it in the bucket</button>
+          <button 
+            type='button'
+            onClick={handleClick}>
+                    put it in the bucket
+          </button>
+        </label>  
       </article>
     </div>
   )
