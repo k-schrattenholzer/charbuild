@@ -16,7 +16,3 @@ it('should display the Character component', () => {
 
   expect(container).toMatchSnapshot();
 });
-
-// it('is a fake test', () => {
-//   expect(1).toEqual(1);
-// })
