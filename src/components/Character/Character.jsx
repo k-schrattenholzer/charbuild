@@ -10,6 +10,7 @@ export default function Character({head, mid, bottom, shoes}) {
 
       <article
       className='head'
+      aria-label='head'
       style={{
         backgroundImage: `url(./head/${head}.png)`,
         height: 150,
@@ -20,6 +21,7 @@ export default function Character({head, mid, bottom, shoes}) {
 
       <article
       className='mid'
+      aria-label='mid'
       style={{
         backgroundImage: `url(./middle/${mid}.png)`,
         height: 150,
@@ -30,6 +32,7 @@ export default function Character({head, mid, bottom, shoes}) {
 
       <article
       className='bottom'
+      aria-label='bottom'
       style={{
         backgroundImage: `url(./bottom/${bottom}.png)`,
         height: 150,
@@ -40,6 +43,7 @@ export default function Character({head, mid, bottom, shoes}) {
 
       <article
       className='shoes'
+      aria-label='shoes'
       style={{
         backgroundImage: `url(./shoes/${shoes}.png)`,
         height: 150,
