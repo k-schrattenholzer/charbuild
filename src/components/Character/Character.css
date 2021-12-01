@@ -1,4 +1,5 @@
 .Char-Container {
+  width: 12em;
   padding: 1em;
   display:flex;
   align-items: center;

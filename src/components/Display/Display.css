@@ -1,14 +1,29 @@
 .Display {
   display: flex;
   flex-direction: column-reverse;
-  align-items: flex-start;
+  align-items: stretch;
   width: min-content;
   background-color: var(--black-coffee); 
   color: var(--magnolia);
-  padding: 10px;
+  padding: 6px;
   border-radius:  30px;
   box-shadow: var(--black-coffee) 3px 4px 20px;
   margin-top: 1em;
   font-size:2em;
-  width: fit-content;
+  width: 8em;
+  overflow-wrap: break-word;
+}
+
+.Count {
+  font-size: .5em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Thought-Container{
+  width: inherit;
+}
+
+.Thought {
+  border-bottom: 1px dashed var(--bone);
 }

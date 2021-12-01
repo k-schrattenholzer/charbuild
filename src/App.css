@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
 :root {
+  --font1: 'Gamja Flower', cursive;
   --bone: #CFD5C3;
+  --lilac: #BBa0B3;
   --magnolia: #EEE7EC;
   --laurel-green: #bec5adff;
   --laurel-green-2: #a4b494ff;
@@ -14,27 +16,42 @@
 
 body {
   background-color: var(--dark-slate-gray);
-  font-family: 'Gamja Flower', cursive;
+  font-family: var(--font1);
+}
+
+main{
+  padding: 5px;
 }
 
 button {
-  border-radius: 20px;
-  font-family: 'Gamja Flower', cursive;
+  border-radius: 1em;
+  font-family: var(--font1);
+  padding: 3px;
+  font-weight: bolder;
+  background-color: var(--lilac); 
+  border: .5px solid var(--dark-slate-gray);
+  color: var(--magnolia);
 }
 
 input {
-  font-family: 'Gamja Flower', cursive;
+  font-family: var(--font1);
+  background-color: var(--bone); 
+  border: .5px solid var(--dark-slate-gray);
+  color: var(--dark-slate-gray);
+  height: 2em;
+  border-radius: 1em;
 }
 
 select {
-  font-family: 'Gamja Flower', cursive;
+  font-family: var(--font1);
   border-radius: 1em;
   font-weight: bolder;
   width: max-content;
   /* appearance: none; */
   padding: 3px;
-  background-image: linear-gradient(to bottom, #cfd5c3, #c4cdb7, #bac4ab, #afbc9f, #a4b494);
-  border-color:var(--russian-green);
+  background-color: var(--lilac); 
+  border: .5px solid var(--dark-slate-gray);
+  color: var(--magnolia);
 }
 
 h3{
@@ -44,6 +61,10 @@ h3{
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
 }
 
 .App-header {
